@@ -40,3 +40,9 @@ Get the disjoint dataset (MUUFL11x11 folder) from [Google Drive](https://drive.g
 │ ...
 ```
 
+### 📌 Training and evaluation
+We initiate the active learning process using the following command to iteratively query samples and train the model until reaching the predefined total cycle count. Additionally, we evaluate the optimal model on the test set after every cycle.
+```
+python3 src/demo.py
+```
+
