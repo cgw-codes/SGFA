@@ -17,4 +17,26 @@
 
 **A multi-level loss-guided feature constraint module (MLFC) is developed. By jointly incorporating class prototype constraints and deep feature reconstruction, the proposed module enhances intra-class compactness and cross-modal consistency, enabling robust multimodal feature representation under limited supervision.**
 
+## 🛠️ Environment
+```
+pip3 install -r requirements.txt
+```
+
+## 🌟 Datasets
+Get the disjoint dataset (Trento11x11 folder) from [Google Drive](https://drive.google.com/drive/folders/1HK3eL3loI4Wd-RFr1psLLmVLTVDLctGd?usp=sharing).
+
+Get the disjoint dataset (Houston11x11 folder) from [Google Drive](https://drive.google.com/drive/folders/1OnLkDpqMtNJy0DRS6YsKKbSqQiiUSgro?usp=sharing)
+
+Get the disjoint dataset (MUUFL11x11 folder) from [Google Drive](https://drive.google.com/drive/folders/1oTUAE3QiVb80sFNi6rvHukFTfZn-lJR_?usp=sharing)
+
+## 📌 Structure
+
+```
+├── Data
+│ └── <dataset_name>
+│    └── ...
+├── src
+│ └── demo.py  
+│ ...
+```
 
